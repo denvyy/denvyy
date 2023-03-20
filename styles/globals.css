@@ -1,0 +1,56 @@
+/* Customize your main colors in :root variables */
+:root {
+  --main-background-color: #343434;
+  --card-background-color: #804980;
+  --countdown-background-color: #433765;
+  --main-text-color: #f7f6f4;
+  --title-text-color: #d8b08c;
+}
+
+body {
+  background-color: var(--main-background-color);
+  /* background-color: #000; */
+  background-size: cover;
+  font-family: 'Inter', cursive;
+  font-size: 1.1em;
+  
+  margin: 0;
+  font-family: "Inter",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: #ffffff;
+}
+
+h2,
+p {
+  color: var(--main-text-color);
+}
+
+h3 {
+  font-weight: normal;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.wallet-adapter-modal-wrapper {
+  background: #ffffff;
+}
+
+.wallet-adapter-button {
+  background-color: #000000;
+}
+
+.wallet-adapter-modal-list {
+  margin: 0 0 4px !important;
+}
+.wallet-adapter-modal-list li:not(:first-of-type) {
+  margin-top: 4px !important;
+}
+
+.wallet-adapter-modal-title {
+  color: #000000;
+}
